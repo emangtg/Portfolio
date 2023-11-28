@@ -12,6 +12,12 @@ html, body{
     .tae:hover {
         transform: scale(1.05);
     }
+
+    .custom-header {
+        background-image: url('images/webback.png');
+        background-size: cover;
+        background-position: center;
+    }
     
     .singleCol {
     
