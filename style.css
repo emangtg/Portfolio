@@ -1,106 +1,106 @@
 html, body{
-height: 100%;
-background: #C5B5A1;
-}
-
-body{
-	display: flex;
-	flex-direction: column;
-	background: #C5B5A1;
-}
-
-.tae:hover {
-    transform: scale(1.05);
-}
-
-.singleCol {
-
-	padding: 50px 0;
-}
-
-.rounded-content {
-	border-radius: 20px;
-	overflow: hidden;
-	margin-bottom: 50px;
-}
-
-
-.rounded-img {
-	border-radius: 20px;
-	margin-bottom: 50px;
-
-}
-	
-	
-.navbar-nav .nav-link {
-    transition: color 0.3s ease-in-out;
-}
-
-.navbar-nav .nav-link:hover {
-    color: #ebf5ff; /* Change the color to your preferred hover color */
-}
-
-/* Customize the appearance of the toggler for small screens */
-.navbar-toggler {
-    background-color: #fff; /* Change the background color of the toggler button */
-}
-
-/* Customize the appearance of the toggler icon */
-.navbar-toggler-icon {
-    background-color: #fff; /* Change the background color of the toggler icon */
-}
-
-/* Align the toggler to the right on small screens */
-@media (max-width: 990.98px) {
-    .navbar-toggler {
-        float: right;
+    height: 100%;
+    background: #C5B5A1;
     }
-}
-
-@media (max-width: 412.98px) {
-    .navbar-toggler {
-        float: right;
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        background: #C5B5A1;
     }
-}
-main{
-	flex:1 0 auto;
-}
-
-footer{
-	flex-shrink: 0;
-}
-
-header{
-	background: no-repeat center center;
-	background-size: cover;
-	color: white;
-}
-
-.color-overlay{
-	background-color: rgba(0, 0, 0, 0.4);
-	min-height: 60vh;
-
-}
-
-.singleCol{
-	max-width: 765px;
-}
-
-footer{
-	background-color: #3a3a3a;
-}
-
-footer a {
-	color: white;
-}
-
-footer a:hover{
-	color: #dfdfdf;
-}
-	
-@media (max-width: 768px){
-	.color-overlay{
-		min-height: 30vh;
-	}
-}
-
+    
+    .tae:hover {
+        transform: scale(1.05);
+    }
+    
+    .singleCol {
+    
+        padding: 50px 0;
+    }
+    
+    .rounded-content {
+        border-radius: 20px;
+        overflow: hidden;
+        margin-bottom: 50px;
+    }
+    
+    
+    .rounded-img {
+        border-radius: 20px;
+        margin-bottom: 50px;
+    
+    }
+        
+        
+    .navbar-nav .nav-link {
+        transition: color 0.3s ease-in-out;
+    }
+    
+    .navbar-nav .nav-link:hover {
+        color: #ebf5ff; /* Change the color to your preferred hover color */
+    }
+    
+    /* Customize the appearance of the toggler for small screens */
+    .navbar-toggler {
+        background-color: #fff; /* Change the background color of the toggler button */
+    }
+    
+    /* Customize the appearance of the toggler icon */
+    .navbar-toggler-icon {
+        background-color: #fff; /* Change the background color of the toggler icon */
+    }
+    
+    /* Align the toggler to the right on small screens */
+    @media (max-width: 990.98px) {
+        .navbar-toggler {
+            float: right;
+        }
+    }
+    
+    @media (max-width: 412.98px) {
+        .navbar-toggler {
+            float: right;
+        }
+    }
+    main{
+        flex:1 0 auto;
+    }
+    
+    footer{
+        flex-shrink: 0;
+    }
+    
+    header{
+        background: no-repeat center center;
+        background-size: cover;
+        color: white;
+    }
+    
+    .color-overlay{
+        background-color: rgba(0, 0, 0, 0.4);
+        min-height: 60vh;
+    
+    }
+    
+    .singleCol{
+        max-width: 765px;
+    }
+    
+    footer{
+        background-color: #3a3a3a;
+    }
+    
+    footer a {
+        color: white;
+    }
+    
+    footer a:hover{
+        color: #dfdfdf;
+    }
+        
+    @media (max-width: 768px){
+        .color-overlay{
+            min-height: 30vh;
+        }
+    }
+    
